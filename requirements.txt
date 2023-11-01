@@ -5,3 +5,4 @@ dash-bootstrap-components
 XlsxWriter
 scikit-learn
 plotly-express
+gunicorn

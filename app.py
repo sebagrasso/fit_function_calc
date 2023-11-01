@@ -592,16 +592,4 @@ def export_to_csv(n_clicks, selectedData, selected_x, selected_y):
         return dash.no_update, "No data selected", None
 
 if __name__ == "__main__":
-    app.run_server(debug=True, port=2323)
-    # app.run_server(port=2323)
-
-
-
-## BUY ME A COFFEE
-## CLUSTERS
-## OTHER FUNCTIONS. TREE, SVC, ETC
-## COMMENTS
-## GUIA TUTORIAL PASO A PASO ( DON'T SHOW AGAIN)
-## LINKEDIN - GITHUB - PORFOLIO
-## DROPNA BUTTONS POR COL Y ROW, ANY Y ALL, REFRESH STORE INFO AND TABLE. (RESET BUTTON?)
-## TXT UPLOAD
+    app.run_server()

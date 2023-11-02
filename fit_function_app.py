@@ -25,7 +25,7 @@ import applayout, appfuncs
 app = dash.Dash(title="Dataset Fit", 
                 external_stylesheets=[dbc.themes.BOOTSTRAP],
                 )
-app.server
+server = app.server
 
 app.layout = dbc.Container(
                     [

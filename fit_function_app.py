@@ -175,51 +175,6 @@ app.layout = dbc.Container(
                                                 )
                                     ], style={"padding-top":"1%"} , width = 2,
                                 ),
-                                dbc.Col(
-                                    [applayout.DCC_DROPDOWN_COLOR],
-                                    width = 1,
-                                ),
-                                dbc.Col(
-                                    [
-                                    dcc.RangeSlider(
-                                                    id="color-range-slider",
-                                                    min=0,
-                                                    max=1,
-                                                    step=0.5,
-                                                    value=[0, 1]
-                                                )
-                                    ], style={"padding-top":"1%"} , width = 2,
-                                ),
-                                dbc.Col(
-                                    [applayout.DCC_DROPDOWN_COLOR],
-                                    width = 1,
-                                ),
-                                dbc.Col(
-                                    [
-                                    dcc.RangeSlider(
-                                                    id="color-range-slider",
-                                                    min=0,
-                                                    max=1,
-                                                    step=0.5,
-                                                    value=[0, 1]
-                                                )
-                                    ], style={"padding-top":"1%"} , width =2,
-                                ),
-                                dbc.Col(
-                                    [applayout.DCC_DROPDOWN_COLOR],
-                                    width = 1,
-                                ),
-                                dbc.Col(
-                                    [
-                                    dcc.RangeSlider(
-                                                    id="color-range-slider",
-                                                    min=0,
-                                                    max=1,
-                                                    step=0.5,
-                                                    value=[0, 1]
-                                                )
-                                    ], style={"padding-top":"1%"} , width =2,
-                                ),                               
                             ]
                             ),
                         ], style={"height":"5%"}),

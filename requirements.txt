@@ -2,6 +2,6 @@ dash==2.14.0
 dash_bootstrap_components==1.5.0
 numpy
 pandas
-plotly==5.17.0
+plotly
 scikit_learn==1.2.2
 gunicorn
